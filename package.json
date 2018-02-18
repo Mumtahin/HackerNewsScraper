@@ -1,0 +1,29 @@
+{
+  "name": "hackernewsscraper",
+  "version": "1.0.0",
+  "description": "A script which scrapes Hacker News and outputs data in JSON",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "./node_modules/.bin/casperjs main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mumtahin/HackerNewsScraper.git"
+  },
+  "keywords": [
+    "hacker",
+    "news",
+    "scraper"
+  ],
+  "author": "nazmul mumtahin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mumtahin/HackerNewsScraper/issues"
+  },
+  "homepage": "https://github.com/Mumtahin/HackerNewsScraper#readme",
+  "dependencies": {
+    "casperjs": "^1.1.4",
+    "phantomjs-prebuilt": "^2.1.16"
+  }
+}
