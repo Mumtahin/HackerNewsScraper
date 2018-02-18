@@ -1,7 +1,8 @@
 var casper = require('casper').create();
-// casper.echo('Hello World', 'INFO');
-// casper.exit();
-casper.start('http://www.google.com', function() {
-    this.capture('./output/test.png');
+
+casper.start('http://www.google.com/', function() {
+    var title = this.getTitle();
+    var url = this.getCurrentUrl();
+    console.log(title + " " + url);
 });
 casper.run();
